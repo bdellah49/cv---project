@@ -1,0 +1,46 @@
+.header{
+    min-width: 700px;
+    padding:40px;
+    align-items: center;
+    background-color: rgb(185, 65, 117);
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    height: 60px;
+    width: 60%;
+}
+.logo-name{
+    font-weight: BOLD; 
+}
+.center{
+    font-family: ink free;
+    font-weight:600px;
+    font-size: 50px;
+}
+.now{
+    font-family: Brush Script MT;
+    font-weight:bold;
+    font-size: 60px;
+}
+.right-head{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+button{
+    padding:7px;
+    border-color: transparent;
+    font-size: 17px;
+    font-family: Arial;
+    border-radius:5px;
+    background-color:rgb(232, 209, 209);
+    transition:background 0.1s linear,font-size 0.1s linear;
+}
+button:hover{
+    color:white;
+    font-size: 20px;
+    background-color:black;
+}

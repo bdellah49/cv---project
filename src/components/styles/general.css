@@ -1,0 +1,46 @@
+.general{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.general-info{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.input-field{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 17px;
+    font-weight: bold;
+    transition: font-size 0.1s linear;
+}
+input{
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 17px;
+    
+}
+.input-field:hover {
+    font-size: 19px;
+} 
+.check{
+    height: 60px;
+}
+.submit{
+    padding:7px;
+    border-color: transparent;
+    font-size: 17px;
+    font-family: Arial;
+    border-radius:5px;
+    background-color:transparent;
+    transition:background 0.1s linear,font-size 0.1s linear;
+}
+.submit:hover{
+    color:white;
+    font-size: 20px;
+    background-color:black;
+}
