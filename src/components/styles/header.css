@@ -1,3 +1,18 @@
+@keyframes logo-anim {
+    0%{
+        rotate:0deg;
+    }
+    25%{
+        rotate:60deg;
+    }
+    75%{
+        rotate:-60deg;
+    }
+    100%{
+        rotate:0deg;
+    }
+
+}
 .header{
     min-width: 700px;
     padding:40px;
@@ -8,7 +23,7 @@
     justify-content: space-between;
 }
 .logo{
-    color: white;
+    animation: logo-anim 2s;
     height: 60px;
     width: 60%;
 }
