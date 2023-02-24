@@ -44,3 +44,9 @@ button:hover{
     font-size: 20px;
     background-color:black;
 }
+.left-head{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}

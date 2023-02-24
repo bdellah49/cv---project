@@ -6,9 +6,9 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <LeftHead/>
-        <CenterHead/>
-        <RightHead/>
+        <LeftHead className="left" />
+        <CenterHead className="center" />
+        <RightHead className="right" />
       </div>
     );
   }
